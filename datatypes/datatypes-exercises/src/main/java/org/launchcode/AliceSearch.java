@@ -18,7 +18,6 @@ public class AliceSearch {
         } else {
             System.out.println(word + " was not found in the Alice in Wonderland text.");
         }
-
     }
 }
 
