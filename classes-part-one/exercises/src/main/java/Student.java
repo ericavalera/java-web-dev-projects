@@ -4,7 +4,10 @@ public class Student {
         private int numberOfCredits = 0;
         private double gpa = 0.0;
 
-//Drop your getters and setters below for the Student class.
+        public Student(String name, int studentId, int numberOfCredits , double gpa) {
+        }
+
+        //Drop your getters and setters below for the Student class.
         public String getName(){
                 return name;
         }
@@ -33,5 +36,4 @@ public class Student {
         }
 
         // To instantiate the Student class, add your code to the main in the file, SchoolPractice.
-
 }
