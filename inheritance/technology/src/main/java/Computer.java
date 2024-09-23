@@ -13,6 +13,7 @@ public class Computer {
         this.isDesktop = isDesktop;
         this.heavy = heavy;
     }
+//    getters & setters
     public String getModel(){
         return model;
     }
@@ -41,6 +42,7 @@ public class Computer {
     public void setHeavy(boolean aHeavy){
         heavy = aHeavy;
     }
+
 // methods
 
     public boolean isHeavy(){
