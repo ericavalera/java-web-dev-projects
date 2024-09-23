@@ -14,6 +14,7 @@ public class Computer {
         this.heavy = heavy;
     }
 //    getters & setters
+
     public String getModel(){
         return model;
     }
