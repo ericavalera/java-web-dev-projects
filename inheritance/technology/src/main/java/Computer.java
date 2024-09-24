@@ -40,6 +40,11 @@ public class Computer {
 
 
 //TODO methods
-
+public String helloComputer(){
+        return "Hi, this is " + name + " computer.";
+}
+public String whatModel(){
+        return "This is a " + model;
+}
 
 }
