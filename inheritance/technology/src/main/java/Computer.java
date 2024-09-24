@@ -1,4 +1,5 @@
 public class Computer {
+    private String name;
     private String model;
     private String operatingSystem;
     private String category = "Technology";
@@ -6,7 +7,8 @@ public class Computer {
     private boolean heavy = false;
 
     // constructor
-    public Computer(String model, String operatingSystem, String category, boolean isDesktop, boolean heavy){
+    public Computer(String name, String model, String operatingSystem, String category, boolean isDesktop, boolean heavy){
+        this.name = name;
         this.model = model;
         this.operatingSystem = operatingSystem;
         this.category = category;
@@ -14,7 +16,12 @@ public class Computer {
         this.heavy = heavy;
     }
 //    getters & setters
-
+    public String getName(){
+        return name;
+    }
+    public void setName(String aName){
+        name = aName;
+    }
     public String getModel(){
         return model;
     }
@@ -47,10 +54,10 @@ public class Computer {
 // methods
 
     public boolean isHeavy(){
-        if (isDesktop = true){
-            heavy = true;
+        if (isDesktop == false){
+            heavy =false;
         }
-        return heavy = false;
+        return heavy = true;
     }
 
     public String noise (){
