@@ -1,22 +1,20 @@
 
 public class Laptop extends Computer{
+    private static final String operatingSystem = "Mac OSX" ;
     private String processor;
     private int releaseDate;
     private int memory;
     private int serialNum;
-    private boolean isMac;
 
 //TODO fix constructor
-    public Laptop(String name, String model, int releaseDate, int memory, int serialNum) {
-        super(name, model, operatingSystem );
+    public Laptop(String processor, String name, String model, int releaseDate, int memory, int serialNum) {
+        super(name, model, operatingSystem);
         this.processor = processor;
         this.releaseDate = releaseDate;
         this.memory = memory;
         this.serialNum = serialNum;
-        this.isMac = isMac;
 
     }
-
 
     //    getters and setters
     public String getProcessor() {
@@ -45,19 +43,21 @@ public class Laptop extends Computer{
         serialNum = aSerialNum;
     }
 
-    public boolean isMac() {
-        return isMac;
-    }
-    public void setMac(boolean mac) {
-        isMac = mac;
-    }
+
 
     //    methods
-    public String old(){
-        if( releaseDate > 5){
+    public String old() {
+        if (releaseDate > 3) {
             return "computer should be updated";
         } else {
             return "computer is up to date";
         }
     }
-}
+        public String replaceMem(){
+            if(memory < 1){
+                return "Need to add memory to hardisk";
+            }else{
+                return "memory is fine!";
+            }
+        }
+    }

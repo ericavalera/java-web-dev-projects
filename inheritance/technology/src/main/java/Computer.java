@@ -1,5 +1,4 @@
 public class Computer {
-//   TODO: condense this down
     private String name;
     private String model;
     private String operatingSystem;
@@ -14,29 +13,33 @@ public class Computer {
     }
 
     //    getters & setters
-    public String getName(){
-        return name;
-    }
-    public void setName(String aName){
-        name = aName;
-    }
-    public String getModel(){
-        return model;
-    }
-    public void setModel(String aModel){
-        model = aModel;
-    }
-    public String getOperatingSystem(){
+
+    public String getOperatingSystem() {
         return operatingSystem;
     }
-    public void setOperatingSystem(String aOperatingSystem) {
-        operatingSystem = aOperatingSystem;
-    };
+
+    public void setOperatingSystem(String operatingSystem) {
+        this.operatingSystem = operatingSystem;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
 
 //TODO methods
 
-    public String noise (){
-        return "no noise";
-    }
+
 }
