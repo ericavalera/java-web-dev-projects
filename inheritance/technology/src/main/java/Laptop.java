@@ -15,7 +15,6 @@ public class Laptop extends Computer{
         this.serialNum = serialNum;
 
     }
-
     //    getters and setters
     public String getProcessor() {
         return processor;
