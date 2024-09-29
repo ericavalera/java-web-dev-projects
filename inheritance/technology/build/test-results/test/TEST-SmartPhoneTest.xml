@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SmartPhoneTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-09-24T03:41:32" hostname="MacBook-Pro.lan" time="0.019">
+  <properties/>
+  <testcase name="SmartPhoneConstructorModel()" classname="SmartPhoneTest" time="0.014"/>
+  <testcase name="SmartPhoneConstructorMemory()" classname="SmartPhoneTest" time="0.001"/>
+  <testcase name="SmartPhoneConstructorRelease()" classname="SmartPhoneTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
