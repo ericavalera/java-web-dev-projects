@@ -3,7 +3,6 @@ package org.launchcode;
 import java.util.HashMap;
 import java.util.Map;
 
-import static java.lang.System.out;
 
 public class Main {
     public static void main(String[] args) {
@@ -17,7 +16,7 @@ public class Main {
         studentFiles.put("Stefanie", "CoolProgram.java");
 
         // Test out your CheckFileExtension() function!
-        System.out.println(CheckFileExtension(studentFiles));;
+        System.out.println(CheckFileExtension(studentFiles));
     }
 
     public static int Divide(int x, int y) {
@@ -36,7 +35,7 @@ public class Main {
     public static int CheckFileExtension(HashMap<String, String> fileName) {
         int studentPoints = 0;
 
-        for (Map.Entry<String,String >entry : fileName.entrySet()) {
+        for (Map.Entry<String,String > entry : fileName.entrySet()) {
             String file = entry.getValue();
         if (file.endsWith(".java")) {
             studentPoints += 1;
