@@ -26,21 +26,31 @@ table {
 }
 
 .square{
-width: 30px;
-length: 30px;
-margin: 10px;
-align:
+
 }
 
 #color1{
 background-color: red;
+width: 10px;
+length: 10px;
+margin: 10px;
 }
 #color2{
 background-color:teal;
+width: 10px;
+length: 10px;
+margin: 10px;
 }
 #color3{
 background-color: purple;
+width: 10px;
+length: 10px;
+margin: 10px;
 }
+
 #color4{
 background-color: black;
+width: 10px;
+length: 10px;
+margin: 10px;
 }
