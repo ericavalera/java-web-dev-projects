@@ -24,3 +24,21 @@ table {
             padding: 10px;
             text-align: center;
 }
+
+.square{
+width: 30px;
+length: 30px;
+}
+
+#color1{
+background-color: red;
+}
+#color2{
+background-color:teal;
+}
+#color3{
+background-color: purple;
+}
+#color4{
+background-color: black;
+}
