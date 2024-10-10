@@ -1,4 +1,5 @@
 body {
+    font-family: Helvetica Neue;
     background-color: pink;
 }
 
@@ -33,8 +34,7 @@ display:inline-block;
 align:center;
 
 }
-footer
-{
+footer {
 text-align:center;
 }
 #color1{
